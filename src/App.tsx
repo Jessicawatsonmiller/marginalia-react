@@ -5,10 +5,10 @@ import './App.css';
 
 
 
-function CoolComponent({name}: {name: string}) {
+function CoolComponent(props: {name: string}) {
   // console.log('props is', props)
 
-  return <div>{name} is super cool</div>
+  return <div>{props.name} is super cool</div>
 
 }
 
@@ -17,6 +17,8 @@ function App() {
   const onLocationChanged = (newLocation: string) => {
     console.log('new location', newLocation)
   }
+
+const [location, setLocation] = useState("introduction_001.xhtml")
 
   // CoolComponent({
   //   name: "asjkdfhaksjdhf"
@@ -35,9 +37,10 @@ function App() {
       <ReactReader
         url="https://gerhardsletten.github.io/react-reader/files/alice.epub"
         title="Moby Dick"
-        location="epubcfi(/6/2[cover]!/4/1:0)"
+        location={location}
         locationChanged={(epubcifi: string) => {
           console.log('navigate to', epubcifi)
+          setLocation(epubcifi)
         }}
         showToc={true}
         tocChanged={(toc: string) => console.log(toc)}
