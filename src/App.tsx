@@ -29,17 +29,17 @@ function App() {
   // })
 
   return (
-    <div style={{ position: "relative", height: "500px", width: "100%" }}>
-      Now Reading
-      <CoolComponent name="asdfasdf" />
+    <div style={{width:"100%", height:"100%"}}>
       {/*}* Container needs a height..*/}
-      <EpubView
-        url="https://s3.amazonaws.com/epubjs/books/moby-dick/OPS/package.opf"
+      {/* url="https://s3.amazonaws.com/epubjs/books/moby-dick/OPS/package.opf" */}
+      <ReactReader
+        url="https://gerhardsletten.github.io/react-reader/files/alice.epub"
         title="Moby Dick"
-        location="epubcfi(/6/2[cover]!/6)"
+        location="epubcfi(/6/2[cover]!/4/1:0)"
         locationChanged={(epubcifi: string) => {
           console.log('navigate to', epubcifi)
         }}
+        showToc={true}
         tocChanged={(toc: string) => console.log(toc)}
       />
     </div>
