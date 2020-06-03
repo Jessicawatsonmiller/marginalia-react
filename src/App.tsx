@@ -18,7 +18,7 @@ function App() {
     console.log('new location', newLocation)
   }
 
-const [location, setLocation] = useState("introduction_001.xhtml")
+const [location, setLocation] = useState("")
 
   // CoolComponent({
   //   name: "asjkdfhaksjdhf"
@@ -36,8 +36,8 @@ const [location, setLocation] = useState("introduction_001.xhtml")
       {/* url="https://s3.amazonaws.com/epubjs/books/moby-dick/OPS/package.opf" */}
       <ReactReader
         url="https://gerhardsletten.github.io/react-reader/files/alice.epub"
-        title="Moby Dick"
-        location={location}
+        title="Alice in Wonderland"
+        location={location||null}
         locationChanged={(epubcifi: string) => {
           console.log('navigate to', epubcifi)
           setLocation(epubcifi)
