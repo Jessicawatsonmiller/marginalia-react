@@ -3,15 +3,12 @@ import { ReactReader, EpubView } from "react-reader";
 import logo from './logo.svg';
 import './App.css';
 
-
-
 function CoolComponent(props: {name: string}) {
   // console.log('props is', props)
 
   return <div>{props.name} is super cool</div>
 
 }
-
 
 function App() {
   const onLocationChanged = (newLocation: string) => {
