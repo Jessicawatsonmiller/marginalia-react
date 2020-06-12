@@ -59,8 +59,8 @@ function App() {
       {/*}* Container needs a height..*/}
       {/* url="https://s3.amazonaws.com/epubjs/books/moby-dick/OPS/package.opf" */}
       <ReactReader
-        url="https://gerhardsletten.github.io/react-reader/files/alice.epub"
-        title="Alice in Wonderland"
+        url="https://jessicawatsonmiller.github.io/marginalia-react/files/gurupapers.epub"
+        title="Guru Papers"
         location={location||null}
         locationChanged={(epubcifi: string) => {
           console.log('navigate to', epubcifi)
