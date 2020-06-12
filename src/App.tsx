@@ -2,7 +2,8 @@ import React, {useState, useEffect} from 'react';
 import { ReactReader, EpubView } from "react-reader";
 import logo from './logo.svg';
 import './App.css';
-import {database} from './firebase'
+import { database } from './firebase';
+//import Aside from './Aside'
 
 function CoolComponent(props: {name: string}) {
   // console.log('props is', props)
@@ -12,6 +13,10 @@ function CoolComponent(props: {name: string}) {
 }
 
 function App() {
+  // TODO: Currently trying to add this function to render a sidebar in preparation for commenting
+  // Stuck on working out what object to pass to this function that has the attributes target, children, moveDown
+  //Aside({target: null, children: 'blah2', moveDown: 'blah3' });
+
   const onLocationChanged = (newLocation: string) => {
     console.log('new location', newLocation)
   }
@@ -46,7 +51,7 @@ function App() {
         color: 'black',
         width: '300px',
         height:'500px',
-        zIndex: 10,
+        zIndex: -1,
       }}>
         Data is {data}
       </div>
