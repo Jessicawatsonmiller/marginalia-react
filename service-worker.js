@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/marginalia-react/precache-manifest.cb3e3dfbc95a65d873a58f3b53e6699a.js"
+  "/marginalia-react/precache-manifest.9cad8f92ec8ad5413cdc5dbb48d17aa9.js"
 );
 
 self.addEventListener('message', (event) => {
