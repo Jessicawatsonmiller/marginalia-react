@@ -59,7 +59,7 @@ function App() {
       {/*}* Container needs a height..*/}
       {/* url="https://s3.amazonaws.com/epubjs/books/moby-dick/OPS/package.opf" */}
       <ReactReader
-        url="https://jessicawatsonmiller.github.io/marginalia-react/files/gurupapers.epub"
+        url="http://s000.tinyupload.com/?file_id=01794165401594148108"
         title="Guru Papers"
         location={location||null}
         locationChanged={(epubcifi: string) => {
