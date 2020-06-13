@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "912a10ac1e9bafa76307d8fc40d99b1e",
+    "revision": "79a1155950b65112f009acc1cedaab75",
     "url": "/marginalia-react/index.html"
   },
   {
-    "revision": "73ec0d069cd980b3d48b",
+    "revision": "1bca8de634a127545dd9",
     "url": "/marginalia-react/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marginalia-react/static/js/2.e5d39690.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73ec0d069cd980b3d48b",
-    "url": "/marginalia-react/static/js/main.6015a463.chunk.js"
+    "revision": "1bca8de634a127545dd9",
+    "url": "/marginalia-react/static/js/main.16142c1d.chunk.js"
   },
   {
     "revision": "992c0ed9fa069d299996",

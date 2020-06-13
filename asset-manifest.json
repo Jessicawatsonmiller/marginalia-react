@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/marginalia-react/static/css/main.5f361e03.chunk.css",
-    "main.js": "/marginalia-react/static/js/main.6015a463.chunk.js",
-    "main.js.map": "/marginalia-react/static/js/main.6015a463.chunk.js.map",
+    "main.js": "/marginalia-react/static/js/main.16142c1d.chunk.js",
+    "main.js.map": "/marginalia-react/static/js/main.16142c1d.chunk.js.map",
     "runtime-main.js": "/marginalia-react/static/js/runtime-main.62259536.js",
     "runtime-main.js.map": "/marginalia-react/static/js/runtime-main.62259536.js.map",
     "static/js/2.e5d39690.chunk.js": "/marginalia-react/static/js/2.e5d39690.chunk.js",
     "static/js/2.e5d39690.chunk.js.map": "/marginalia-react/static/js/2.e5d39690.chunk.js.map",
     "index.html": "/marginalia-react/index.html",
-    "precache-manifest.9cad8f92ec8ad5413cdc5dbb48d17aa9.js": "/marginalia-react/precache-manifest.9cad8f92ec8ad5413cdc5dbb48d17aa9.js",
+    "precache-manifest.506e8661bb183924e891dad503fce671.js": "/marginalia-react/precache-manifest.506e8661bb183924e891dad503fce671.js",
     "service-worker.js": "/marginalia-react/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/marginalia-react/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.e5d39690.chunk.js.LICENSE.txt": "/marginalia-react/static/js/2.e5d39690.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.62259536.js",
     "static/js/2.e5d39690.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.6015a463.chunk.js"
+    "static/js/main.16142c1d.chunk.js"
   ]
 }
