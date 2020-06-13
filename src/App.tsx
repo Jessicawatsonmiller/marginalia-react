@@ -59,7 +59,7 @@ function App() {
       {/*}* Container needs a height..*/}
       {/* url="https://s3.amazonaws.com/epubjs/books/moby-dick/OPS/package.opf" */}
       <ReactReader
-        url="http://s000.tinyupload.com/?file_id=01794165401594148108"
+        url="https://gurupapers.imfast.io/Joel%20Kramer%2C%20Diana%20Alstad%20-%20The%20Guru%20Papers_%20Masks%20of%20Authoritarian%20Power-Frog%20Books%20%281993%29%281%29.epub"
         title="Guru Papers"
         location={location||null}
         locationChanged={(epubcifi: string) => {
